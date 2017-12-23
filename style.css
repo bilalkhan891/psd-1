@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	--navTextColor: #ada05d;
+	--backgroundColor: #021830;
+	font-family: 'Abel', sans-serif;
+}
+.sm-col-6{
+	margin: 0px;
+	padding: 0px;
+}
+
+#top-bg{
+	background-image: url('img/background.jpg');
+	background-repeat: no-repeat;
+
+}
+
+/*Navigation Bar   BG 1*/
+#bg1 .navbar-brand{
+	margin: 0px 0px 0px 20%;
+	padding: 0px !important;
+}
+.logo
+{
+	width: 150px;
+}
+
+#bg1 .navbar-default{
+	background-color: var(--backgroundColor);
+	border: none;
+	border-radius: 0px;
+	color: var(--navTextColor);
+	margin: 0px;
+}
+
+#bg1 .navbar-default .navbar-nav>.active>a,
+#bg1 .navbar-default .navbar-nav>li>a,
+#bg1 .navbar-default .navbar-nav>.active>a:focus,
+#bg1 .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #021830;
+	color: var(--navTextColor);
+}
+/*	Navbar End*/
+
+
+
+
+/* Slider            BG 2 		*/
+#bg2{
+	background-image: url('img/slider.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	overflow: hidden;
+	margin-top: 0px;
+}
+#bg2 h4{
+	margin-top: 25%;
+}
+#bg2 button{
+	overflow: hidden;
+	margin-bottom: 25%;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border-radius: 0px;
+}
+
+
+
+/*	BG3 	*/
+
+.flex-text{
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+}
+.padding-bg3-text{
+	width: 65%;
+}
+.bg3-text{
+	flex: 1;
+	text-align: justify;
+
+}
+.bg3-img{
+	background-image: url('img/bg3-1.jpg');
+	flex: 1;
+	overflow: hidden;
+}
+.bg3-text h2,
+.bg3-text p{
+	margin: auto 20px auto 25%;
+}
+
+.bg3-img img{
+	width: 100%;
+}
+
+
+
+/*	BG 4  	*/
+.bg4 h3{
+	background-color: var(--backgroundColor);
+	color: white;
+	text-align: center;
+	display: block;
+	margin: 0px;
+	padding: 30px;
+}
+.bg4 {
+	display: block;
+}
+
+
+
+/*     BG 5 		*/
+.bg5{
+	display: flex;
+	align-items: center;
+}
+.bg5-pic{
+	flex: 1;
+}
+.bg5-pic img{
+	width: 100%;
+}
+.bg5-text{
+	flex: 1;
+}
+
+
+
+/*	bg6	*/
+.bg6-text{
+	margin: 100px auto 80px auto;
+	width: 40%;
+
+}
+
+/*	bg7 	*/
+.light{
+	background-color: #ecf0f1;
+}
+.dark{
+	background-color: #a1b1bc;
+}
+.bg7{
+	height: 400px;
+}
+.row-1{
+	display: flex;
+	height: 200px;
+	width: 100%;
+}
+.row-2{
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+.box{
+	height: 200px;
+	flex: 1;
+	position: relative;
+}
+.box:hover{
+	background-color: var(--backgroundColor);
+}
+
+
+
+
+
+
+
+/*	bg8 	*/
+.bg8{
+	background-color: #a48d41;
+	text-align: center;
+}
+.bg8>i{
+	margin: 25px;
+	color: #e6dec4;
+}
+
+/*	bg9 	*/
+footer{
+	background-color: var(--backgroundColor);
+	color: white;
+}
+.bg9{
+	display: flex;
+}
+.bg9 section{
+	flex: 1;
+	margin: 10px;
+}
+.bg9 button{
+	background-color: var(--navTextColor);
+	border: 0;
+	border-radius: 3px;
+	margin: 0px;
+	color: white;
+}
+.bg9 input{
+	background-color: #222533;
+	border: 2px solid #222533;
+	padding: 5px 20px;
+	margin: 0px;
+	width: 70%;
+}
+.news{
+	margin-top: 30px;
+}
+.news-section{
+	display: flex;
+}
+.news-img{
+	text-align: center;
+	height: 90px;
+	width: 90px;
+	margin: 5px;
+	background-color: white;
+}
+.news-details{
+	flex: 1;
+	width: 60%;
+}
+.news-img>p{
+	font-size: 36px;
+	margin: 20px;
+}
+.news-img:hover{
+	background-color: var(--navTextColor);
+}
+
+.flickr{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+
+}
+
+.flickr-row{
+	flex: 1;
+}
+.flickr-pic{
+	width: 85px;
+	height: 85px;
+	margin: 5px auto;
+	background-color: white;
+}
+.flickr-pic:hover{
+	background-color: #d0d8de;
+}
+.more-pic span{
+	color: var(--navTextColor);
+	margin: 10px;
+}
+.copyright{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.flex-text{
+		display: block;
+	}
+	.bg3-text{
+		padding: 30px;
+	}
+	.bg5{
+		display: block;
+	}
+	.bg3-text h2,
+	.bg3-text p{
+		margin: 10px;
+	}
+	.bg5-text{
+		margin: 40px;
+	}
+	.bg9{
+		display: block;
+	}
+	.flickr-pic{
+	    width: 65px;
+	    margin-right: 5px;
+	    height: 75px;
+	}
+	.bg8>i{
+		margin: 20px 7px;
+	}
+	.bg7{
+		height: 853px;
+		clear: both;
+	}
+	.row-1, 
+	.row-2{
+		display: block;
+		height: auto;
+	}
+	.box{
+		float: left;
+		width: 48%;
+		margin: 1%;
+	}
+
+	#bg1 .navbar-nav li,
+	#bg1 .navbar-nav a{
+		margin: auto 0px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
